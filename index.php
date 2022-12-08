@@ -24,12 +24,19 @@
                 <h1>
                     <i class="fa fa-store"></i>
                     Learn IT Easy Online Shop
+                    
                 </h1>
             </div>
+            <div class="col-4 text-right">
+                <a href="register.php">
+                    <span class="link-light mx-1">Sign in</span>
+                </a>
+            
             <div class="col-2 text-right">
                 <a href="cart.php" class="btn btn-primary">
                     <i class="fa fa-shopping-cart"></i>
                     Cart <span class="badge badge-light"><?php echo $_SESSION['cart_count']; ?></span>
+                    
                 </a>
             </div>
             <div class="col-12">
